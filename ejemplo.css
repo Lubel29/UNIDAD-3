@@ -1,0 +1,45 @@
+h1{
+    color:indianred;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid black;
+}
+h2{
+    color:salmon;
+    font-size: 30px;
+    font-family: verdana;
+}
+h3{
+    color:rgb(63, 34, 25);
+    font-size: 20px;
+    font-style: oblique;
+}
+p{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 20px;
+}
+#caja1{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-left: 300px;
+}
+#caja2{
+    background-color:lightcyan;
+}
+#caja3{
+    background-color:blanchedalmond;
+    border: 3px solid black;
+    width: 900px;
+    height: 50px;
+    text-align:center;
+}
+#imagen{
+    padding: 100px;    
+}
