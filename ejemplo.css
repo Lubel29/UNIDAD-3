@@ -1,45 +1,93 @@
-h1{
-    color:indianred;
+/*<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200;1,600&display=swap" rel="stylesheet">*/
+/*rgb(228, 169, 51);*/
+/*rgb(242, 210, 122);*/
+
+h1 {
     background-color: blanchedalmond;
     text-align: center;
     font-size: 50px;
-    border: 5px solid black;
+    background: rgb(242, 210, 122);
+    background: radial-gradient(circle, rgba(242, 210, 122, 0.9640231092436975) 23%, rgba(220, 153, 116, 0.6041666666666667) 100%);
+    border-radius: 20px;
+    font-family: 'Kanit', sans-serif;
 }
-h2{
-    color:salmon;
+
+h2 {
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    font-family: verdana;
+    font-family: 'Kanit', sans-serif;
 }
-h3{
-    color:rgb(63, 34, 25);
+
+h3 {
+    color: rgb(63, 34, 25);
     font-size: 20px;
     font-style: oblique;
 }
-p{
-    color:black;
+
+p {
+    color: black;
     font-weight: bold;
     font-style: italic;
     line-height: 30px;
     font-size: 20px;
 }
-#caja1{
+
+#Caja0 {
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.73);
+}
+
+#caja1 {
     background-color: blanchedalmond;
     width: 300px;
     height: 300px;
     padding: 20px;
     box-sizing: content-box;
     margin-left: 300px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(228, 169, 51);
+    border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+    border: 5px dotted #000000;
+    background: linear-gradient(186deg, rgba(232, 183, 83, 0.8211659663865546) 9%, rgba(253, 187, 45, 0.9724264705882353) 100%);
 }
-#caja2{
-    background-color:lightcyan;
+
+#caja2 {
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    box-sizing: content-box;
+    margin-left: 700px;
+    text-align: center;
+    margin-top: -200px;
+    border-radius: 20px;
+    background: rgb(228, 169, 51);
+    border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+    border: 5px dotted #000000;
+    background: linear-gradient(186deg, rgba(232, 183, 83, 0.8211659663865546) 9%, rgba(253, 187, 45, 0.9724264705882353) 100%);
 }
-#caja3{
-    background-color:blanchedalmond;
+
+#caja3 {
+    background-color: blanchedalmond;
     border: 3px solid black;
     width: 900px;
     height: 50px;
-    text-align:center;
+    text-align: center;
+    box-shadow: 10px 8px 19px 13px rgba(0,0,0,0.96);
+-webkit-box-shadow: 10px 8px 19px 13px rgba(0,0,0,0.96);
+-moz-box-shadow: 10px 8px 19px 13px rgba(0,0,0,0.96);
+margin-bottom: 50px;
+margin-top: 100px;
 }
-#imagen{
-    padding: 100px;    
+
+#imagen {
+    padding: 100px;
+    margin: -50px;
+}
+.tamanio{
+    font-size: 50px;
 }
